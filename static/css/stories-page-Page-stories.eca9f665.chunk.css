@@ -1,6 +1,6 @@
-@import url(http://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap);
 .storybook-page {
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
   padding: 48px 20px;
@@ -232,6 +232,5 @@ text.recharts-text {
     padding: 16px !important;
   }
 }
-
 
 /*# sourceMappingURL=stories-page-Page-stories.eca9f665.chunk.css.map*/
