@@ -1,0 +1,67 @@
+.sub-header {
+  align-items: center;
+  justify-content: center;
+}
+.sub-header th {
+  padding: 16px;
+  position: relative;
+}
+.th-sub-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 4px;
+  text-align: center;
+}
+.table-cell-sub-heading {
+  font-size: 0.5rem;
+  font-weight: 400;
+  line-height: 0.5;
+  color: #000000;
+}
+.main-header {
+  padding: 0.5rem 1rem !important;
+  color: #ffffff !important;
+  font-size: 0.75rem !important;
+  line-height: 1.33 !important;
+  background-color: #f47c20 !important;
+}
+
+.table-head {
+  line-height: 3 !important;
+}
+
+.table-cell {
+  position: relative;
+  z-index: 1;
+  width: 63px;
+}
+.table-cell::before {
+  content: "";
+  border-width: 0 0 49px 75px;
+  border-color: transparent transparent rgba(71, 159, 53, 0.2) transparent;
+  display: block;
+  position: absolute;
+  border-style: solid;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.left-count {
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .table-head {
+    line-height: 1.2 !important;
+  }
+  .table-cell::before {
+    border-width: 0 0 47px 75px;
+  }
+  .has-single-value {
+    padding: 16px !important;
+  }
+}
+
+
+/*# sourceMappingURL=stories-table-table-stories.f50d0dda.chunk.css.map*/

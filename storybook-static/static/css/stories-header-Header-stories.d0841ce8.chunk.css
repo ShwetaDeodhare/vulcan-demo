@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap);
+.storybook-header {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.storybook-header svg {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.storybook-header h1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+  color: #fff;
+  padding: 0;
+}
+
+.storybook-header button + button {
+  margin-left: 10px;
+}
+
+.storybook-header .welcome {
+  color: #333;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.bg-primary {
+  background-color: #f47c20;
+}
+
+
+/*# sourceMappingURL=stories-header-Header-stories.d0841ce8.chunk.css.map*/

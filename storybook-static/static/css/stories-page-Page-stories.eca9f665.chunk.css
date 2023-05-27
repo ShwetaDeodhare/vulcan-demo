@@ -1,0 +1,237 @@
+@import url(http://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap);
+.storybook-page {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 48px 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  color: #333;
+}
+
+.storybook-page h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+  margin: 0 0 4px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.storybook-page p {
+  margin: 1em 0;
+}
+
+.storybook-page a {
+  text-decoration: none;
+  color: #1ea7fd;
+}
+
+.storybook-page ul {
+  padding-left: 30px;
+  margin: 1em 0;
+}
+
+.storybook-page li {
+  margin-bottom: 8px;
+}
+
+.storybook-page .tip {
+  display: inline-block;
+  border-radius: 1em;
+  font-size: 11px;
+  line-height: 12px;
+  font-weight: 700;
+  background: #e7fdd8;
+  color: #66bf3c;
+  padding: 4px 12px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.storybook-page .tip-wrapper {
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.storybook-page .tip-wrapper svg {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  margin-right: 4px;
+  vertical-align: top;
+  margin-top: 3px;
+}
+
+.storybook-page .tip-wrapper svg path {
+  fill: #1ea7fd;
+}
+
+.bg-primary {
+  background-color: #f47c20;
+}
+
+.storybook-header {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.storybook-header svg {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.storybook-header h1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+  color: #fff;
+  padding: 0;
+}
+
+.storybook-header button + button {
+  margin-left: 10px;
+}
+
+.storybook-header .welcome {
+  color: #333;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.recharts-default-legend {
+  max-width: 250px;
+  height: 100%;
+  padding-top: 10px !important;
+  text-align: left !important;
+}
+
+.recharts-legend-item {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.recharts-legend-item .recharts-surface {
+  height: 8px;
+  vertical-align: top !important;
+  margin-right: 4px !important;
+  margin-top: 6px;
+  width: auto !important;
+}
+
+.recharts-legend-item-text {
+  color: #000000 !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.recharts-responsive-container {
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.recharts-legend-wrapper {
+  background: #f5f5f5;
+  padding: 0 10px;
+  width: calc(100% - 40px) !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .recharts-responsive-container {
+    max-height: 400px;
+    overflow: hidden;
+  }
+}
+
+text.recharts-text {
+  font-size: 12px;
+}
+
+.recharts-default-tooltip {
+  font-size: 0.75rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.recharts-wrapper,
+.recharts-surface {
+  width: 100% !important;
+}
+
+.sub-header {
+  align-items: center;
+  justify-content: center;
+}
+.sub-header th {
+  padding: 16px;
+  position: relative;
+}
+.th-sub-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 4px;
+  text-align: center;
+}
+.table-cell-sub-heading {
+  font-size: 0.5rem;
+  font-weight: 400;
+  line-height: 0.5;
+  color: #000000;
+}
+.main-header {
+  padding: 0.5rem 1rem !important;
+  color: #ffffff !important;
+  font-size: 0.75rem !important;
+  line-height: 1.33 !important;
+  background-color: #f47c20 !important;
+}
+
+.table-head {
+  line-height: 3 !important;
+}
+
+.table-cell {
+  position: relative;
+  z-index: 1;
+  width: 63px;
+}
+.table-cell::before {
+  content: "";
+  border-width: 0 0 49px 75px;
+  border-color: transparent transparent rgba(71, 159, 53, 0.2) transparent;
+  display: block;
+  position: absolute;
+  border-style: solid;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.left-count {
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .table-head {
+    line-height: 1.2 !important;
+  }
+  .table-cell::before {
+    border-width: 0 0 47px 75px;
+  }
+  .has-single-value {
+    padding: 16px !important;
+  }
+}
+
+
+/*# sourceMappingURL=stories-page-Page-stories.eca9f665.chunk.css.map*/
